@@ -36,3 +36,6 @@ import { HttpResponse, HttpError, HttpRequestConfig, HttpPromise } from 'entcore
 
 Ces types couvrent les usages réellement observés sur le parc (154+ fichiers) : catch d'erreur (`.message`, `.response`, `.response.data`), config d'appel (`headers`, `responseType`), et les quelques usages génériques (`AxiosResponse<SchoolYear>`, `AxiosError<any>`). Remplacer un import axios par son équivalent est un renommage direct — voir `typecheck/http.types.check.ts` (vérifié par `npm run test:types`, sans exécution runtime — ce sont des types, pas du code) pour des exemples calqués sur des patterns réels du parc.
 
+
+
+Ce dépôt est un miroir officiel du dépôt Edifice : https://github.com/edificeio/toolkit
